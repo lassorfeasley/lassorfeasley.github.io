@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+}
+p {
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: 500;
+  color: red;
+    border: 1px solid powderblue;
+    padding: 30px;
+}
+
+h1 {
+  font-size: 20;
+  font-family: sans-serif;
+    border: 100px solid powderblue;
+    padding: 30px;
+}
+
+img {
+
+  border: solid 20px red;
+  border-radius: 10000px;
+  width: 50em;
+  height: 20em;
+}
+
+h2 {
+  font-size: 30;
+  border: 32px dashed green;
+  text-align: right;
+}
+.menu {
+  font-size: 25;
+}
