@@ -3,10 +3,14 @@ title{
 }
 
 
-body {
+html, body {
     margin: 0 !important;
     padding: 0 !important;
     padding-top: 0 !important;
+    height: 100%;
+}
+body {
+  background: darkgrey;
 }
 
 p:hover {
