@@ -13,7 +13,7 @@ body {
   background: darkgrey;
 }
 
-p {
+a {
   color: white;
   font-family: futura;
   text-transform:uppercase;
@@ -21,14 +21,14 @@ p {
   font-weight: 600;
 }
 
-p:hover {
+a:hover {
   background-color: black;
 }
 
 ul {
   font-size: 30px;
    display: inline-block;
-   width: 32%;
+   width: 20%;
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -40,7 +40,7 @@ li {
     float: center;
 }
 
-li p {
+li a {
     display: block;
     font-size: 50%;
     font-family: "Gill Sans";
@@ -49,4 +49,33 @@ li p {
     color: white;
     letter-spacing: .75em;
     background-color: darkgrey;
+}
+
+h1 {
+  display: block;
+  font-size: 100%;
+  font-family: "Gill Sans";
+  font-variant: small-caps;
+  text-align: center;
+  color: white;
+  letter-spacing: .75em;
+  background-color: darkgrey;
+}
+
+h2 {
+  display: block;
+  font-size: 25px;
+  font-family: "Gill Sans";
+  font-variant: small-caps;
+  text-align: center;
+  color: white;
+  letter-spacing: .75em;
+  background-color: darkgrey;
+}
+
+h3 {
+  padding: 0% 25%;
+  font-family: "Gill Sans";
+  color: white;
+  font-weight: lighter;
 }
