@@ -13,6 +13,14 @@ body {
   background: darkgrey;
 }
 
+p {
+  color: white;
+  font-family: futura;
+  text-transform:uppercase;
+  font-size: 55px;
+  font-weight: 600;
+}
+
 p:hover {
   background-color: black;
 }
