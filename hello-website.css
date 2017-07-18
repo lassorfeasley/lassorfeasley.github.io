@@ -1,36 +1,37 @@
+title{
+  font-family: "Gill Sans", serif;
+}
+
 body {
-  text-align: center;
-}
-p {
-  font-size: 50px;
-  font-family: monospace;
-  font-weight: 500;
-  color: red;
-    border: 1px solid powderblue;
-    padding: 30px;
+
 }
 
-h1 {
-  font-size: 20;
-  font-family: "roboto";
-    border: 100px solid powderblue;
-    padding: 30px;
+
+
+p:hover {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color: darkgrey;
+}
+
+li {
+    float: left;
+}
+
+li p {
+    display: block;
+    padding: 14px 16px;
+    font-size: 50%;
+    font-family: "Gill Sans";
+    font-variant: small-caps;
     text-align: center;
-}
-
-img {
-
-  border: solid 20px red;
-  border-radius: 10000px;
-  width: 50em;
-  height: 20em;
-}
-
-h2 {
-  font-size: 30;
-  border: 32px dashed green;
-  text-align: right;
-}
-.menu {
-  font-size: 25;
+    color: white;
+    letter-spacing: .75em;
+    background-color: darkgrey;
 }
