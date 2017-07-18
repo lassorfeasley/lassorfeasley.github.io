@@ -2,11 +2,12 @@ title{
   font-family: "Gill Sans", serif;
 }
 
+
 body {
-
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 0 !important;
 }
-
-
 
 p:hover {
   background-color: black;
@@ -25,7 +26,6 @@ li {
 }
 
 li p {
-    height: 100px;
     display: block;
     font-size: 50%;
     font-family: "Gill Sans";
