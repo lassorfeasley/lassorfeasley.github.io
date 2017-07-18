@@ -18,11 +18,14 @@ p:hover {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: darkgrey;
+  font-size: 30px;
+   display: inline-block;
+   width: 32%;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: darkgrey;
 }
 
 li {
