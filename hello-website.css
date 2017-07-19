@@ -78,4 +78,18 @@ h3 {
   font-family: "Gill Sans";
   color: white;
   font-weight: lighter;
+  text-align: justify;
+}
+
+th {
+  line-height: 200%;
+  color: white;
+  font-family: "gill sans";
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+
+table {
+  width: 90%;
+  background-color: grey;
 }
