@@ -8,7 +8,7 @@
 </head>
 
 <div class="topbar">
-  <center>the west was won<dlink><a href="./directory.html">☰</a></dlink></center>
+  <center>the west was won<dlink><span onclick="openNav()">☰</span></dlink></center>
 
 </div>
 
@@ -60,6 +60,18 @@ dominion. The Scripture represents them as his goals-Luke 11:21. The devils watc
   </p>
 </h3>
 </div>
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
 
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
 </body>
 </html>
