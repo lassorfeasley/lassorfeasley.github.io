@@ -10,7 +10,10 @@ body {
   background: darkgrey;
 }
 
-
+quote {
+  font-style: italic;
+  margin-left: 30%;
+}
 
 .topbar {
   color: white;
@@ -24,39 +27,6 @@ body {
   position:fixed;
   top: 0;
   z-index: 1;
-}
-
-.sidebar {
-  padding-top: 40%;
-  position: fixed;
-  height: 100%;
-  width: 25%;
-  margin-left: 37.5%;
-  background-color: silver;
-  letter-spacing: 125%;
-  font-family: "gill sans";
-  color: white;
-  font-variant: small-caps;
-  font-weight: bolder;
-  border-left: white 10px solid;
-  border-right: white 10px solid;
-  text-align: center;
-  font-size: 20pt;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.sidebar li {
-  background-color: silver;
-
-}
-
-.sidebar li:hover {
-  background: red;
 }
 
 .content {
@@ -136,7 +106,7 @@ dlink {
     font-variant: small-caps;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: white;
     display: block;
     transition: 0.3s
