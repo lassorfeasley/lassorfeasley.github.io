@@ -1,3 +1,17 @@
+ul {
+  list-style-type: none;
+  line-height: 80%;
+  padding: 5%;
+}
+
+
+
+ul li {
+  padding-left: 10%;
+  line-height: normal;
+  padding-top: 0%;
+}
+
 title{
   font-family: "Gill Sans", serif;
 }
@@ -10,9 +24,10 @@ body {
   background: darkgrey;
 }
 
-quote {
+blockquote {
   font-style: italic;
-  margin-left: 30%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .topbar {
@@ -29,41 +44,47 @@ quote {
   z-index: 1;
 }
 
-.content {
-  padding-top: 7em;
-}
+
 
 h1 {
   display: block;
   font-size: 100%;
-  font-family: "Gill Sans";
-  font-variant: small-caps;
-  text-align: center;
+  font-family: "georgia";
+  text-align: left;
+  text-transform:lowercase;
+  font-style: italic;
   color: white;
-  letter-spacing: .75em;
+  letter-spacing: .3em;
   background-color: darkgrey;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 0;
 }
 
 h2 {
+  padding-left: 20%;
+  padding-right: 20%;
   padding-top: 10%;
   display: block;
-  font-size: 25px;
+  font-size: 40px;
+  text-transform: lowercase;
   font-family: "Gill Sans";
   font-variant: small-caps;
-  text-align: center;
+  text-align: left;
   color: white;
-  letter-spacing: .75em;
   background-color: darkgrey;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3 {
-  font-family: "Gill Sans";
+  font-family: "baskerville";
   color: white;
   font-weight: lighter;
   text-align: justify;
   padding-right: 20%;
   padding-left: 20%;
-  font-size: 24px;
+  font-size: 16pt;
 }
 
 a:link {
@@ -84,7 +105,9 @@ dlink {
 
 /* The side navigation menu */
 .sidenav {
-    font-family: "gill sans";
+    font-family: "georgia";
+    font-style: italic;
+    text-transform: lowercase;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -92,22 +115,31 @@ dlink {
     top: 0;
     left: 0;
     border-right: solid 10px white;
-    background-color: lightgrey; /* Black*/
+    background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.chapter {
+  background-color: red;
+  font-style:normal;
+  margin-top: 3pt;
+  padding-left: 5pt;
+  background-color: white;
+  font-variant: small-caps;
+  border-radius: 3pt;
+  margin-bottom: 0;
 }
 
 
 
 /* The navigation menu links */
 .sidenav a {
-    font-weight: bold;
-    font-variant: small-caps;
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 0px;
     text-decoration: none;
     font-size: 15px;
-    color: white;
+    color: darkgrey;
     display: block;
     transition: 0.3s
 }
