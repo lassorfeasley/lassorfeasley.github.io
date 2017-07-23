@@ -36,6 +36,7 @@
   background-image: url("./Conclusion.png");
   min-height: 100%;
   height: 700px;
+  overflow: hidden;
 }
 
 .paraQuote {
