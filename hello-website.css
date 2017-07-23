@@ -4,6 +4,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+  margin-top: 7%;
 
 }
 .introPara {
@@ -36,7 +38,30 @@
   height: 700px;
 }
 
+.paraQuote {
+  position:sticky;
+  background-color: black;
+  opacity: .7;
+  font-family: "baskerville";
+  font-style: bold;
+  font-weight:lighter;
+  font-size: 12pt;
+  font-weight: 600;
+  color: white;
+  width: 20%;
+  height: 100%;
+  margin-left: 20%;
+  padding: 200px 50px 0 50px;
+  text-align: justify;
 
+}
+
+
+
+
+forQuoteBox {
+  background-color: green;
+}
 
 ul {
   list-style-type: none;
