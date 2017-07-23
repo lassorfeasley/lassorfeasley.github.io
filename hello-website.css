@@ -1,23 +1,58 @@
+.introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.introPara {
+  background-image: url("./Abstract.png");
+  min-height: 100%;
+  height: 700px;
+}
+
+.chapterOnePara {
+  background-image: url("./ChapterOne.png");
+  min-height: 100%;
+  height: 700px;
+}
+
+.chapterTwoPara {
+  background-image: url("./ChapterTwo.png");
+  min-height: 100%;
+  height: 700px;
+}
+
+.chapterThreePara {
+  background-image: url("./chapterThree.png");
+  min-height: 100%;
+  height: 700px;
+}
+
+.conclusionPara {
+  background-image: url("./conclusion.png");
+  min-height: 100%;
+  height: 700px;
+}
+
+
+
 ul {
   list-style-type: none;
   line-height: 80%;
   padding: 5%;
   color: darkgrey;
 }
-
-
-
 ul li {
   padding-left: 10%;
   line-height: normal;
   padding-top: 0%;
   color:darkgrey;
 }
-
 title{
   font-family: "Gill Sans", serif;
 }
-
 /* this is to make a full bleed grey background*/
 
 html, body { margin: 0px; padding: 0px; border: 0px; }
