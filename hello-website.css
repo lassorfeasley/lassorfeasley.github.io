@@ -41,20 +41,22 @@
   position:sticky;
   background-color: black;
   opacity: .7;
-  "font-family: 'Lora', serif;
+  "font-family: 'noto serif', serif;
   font-style: bold;
   font-weight:lighter;
-  font-size: 12pt;
+  font-size: 10pt;
   font-weight: 600;
   color: white;
   width: 20%;
   height: 100%;
   margin-left: 20%;
-  padding: 200px 50px 0 50px;
+  padding: 100pt 4% 0 4%;
   text-align: justify;
   line-height: 150%;
 }
-
+.solidText {
+  opacity:100% !important;
+}
 
 
 
@@ -96,7 +98,7 @@ blockquote {
   font-weight: 600;
   width: 100%;
   background-color: lightgrey;
-  border-bottom: 7pt solid white;
+  border-bottom: 0pt solid white;
   position:fixed;
   top: 0;
   z-index: 1;
@@ -140,6 +142,7 @@ h2 {
   background-color: darkgrey;
   margin-top: 0;
   margin-bottom: 0;
+
 }
 
 h3 {
