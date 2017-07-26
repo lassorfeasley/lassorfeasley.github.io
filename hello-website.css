@@ -6,72 +6,54 @@
   background-size: cover;
   overflow: hidden;
   margin-top: 4%;
+  height: 450px;
 }
 .introPara {
   background-image: url("./Abstract.png");
-  min-height: 100%;
-  height: 700px;
 }
 
 .chapterOnePara {
   background-image: url("./ChapterOne.png");
-  min-height: 100%;
-  height: 700px;
 }
 
 .chapterTwoPara {
   background-image: url("./ChapterTwo.png");
-  min-height: 100%;
-  height: 700px;
 }
 
 .chapterThreePara {
   background-image: url("./ChapterThree.png");
-  min-height: 100%;
-  height: 700px;
 }
 
 .conclusionPara {
   background-image: url("./Conclusion.png");
-  min-height: 100%;
-  height: 700px;
 }
 
 .paraQuote {
   position:sticky;
   background-color: rgba(0,0,0,.7);
-  "font-family: 'noto serif', serif;
-  font-style: bold;
+  font-family: 'Josefin Slab', serif;
   font-weight:lighter;
-  font-size: 10pt;
-  font-weight: 600;
+  font-size: 14;
   color: white;
   width: 20%;
   height: 100%;
   margin-left: 20%;
-  padding: 100pt 4% 0 4%;
+  padding: 7% 4% 0 4%;
   text-align: justify;
-  line-height: 150%;
+  line-height: 110%;
 }
-.solidText {
-  opacity:100% !important;
-}
-
-
-
-
 
 ul {
   list-style-type: none;
   line-height: 80%;
   padding: 5%;
-  color: silver;
+  color: white;
 }
 ul li {
   padding-left: 10%;
   line-height: normal;
   padding-top: 0%;
-  color:silver;
+  color:white;
 }
 
 /* this is to make a full bleed grey background*/
@@ -181,19 +163,20 @@ dlink {
     z-index: 2; /* Stay on top */
     top: 0;
     left: 0;
-    border-right: solid 10px black;
-    background-color: white; /* Black*/
+    color: black;
+    border-right: solid 5px silver;
+    background-color: black; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 .chapter {
-  color: black;
+  color: white;
   font-style:normal;
   margin-top: 3pt;
   padding-left: 5pt;
-  background-color: white;
+  background-color: black;
   font-variant: small-caps;
   border-radius: 3pt;
   margin-bottom: 0;
@@ -234,6 +217,9 @@ dlink {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    h3 {
+      font-size: 45;
+    }
 }
 
 
@@ -242,4 +228,10 @@ dlink {
     .parallax {
         background-attachment: scroll;
     }
+}
+
+
+.badge {
+  text-align: right;
+  padding-top: 6%;
 }
