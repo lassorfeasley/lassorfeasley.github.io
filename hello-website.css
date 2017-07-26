@@ -95,7 +95,7 @@ h1 {
   display: block;
   font-size: 100%;
   font-family: "Lora";
-  font-size:
+  font-size: 14px;
   text-align: left;
   text-transform:lowercase;
   font-style: italic;
@@ -113,7 +113,7 @@ h2 {
   padding-top: 10%;
   line-height: 80%;
   display: block;
-  font-size: 40px;
+  font-size: 45px;
   text-transform: lowercase;
   font-family: 'futura-pt-bold', sans-serif;
   letter-spacing: .3em;
@@ -133,7 +133,7 @@ h3 {
   text-align: justify;
   padding-right: 20%;
   padding-left: 20%;
-  font-size: 16pt;
+  font-size: 20px;
 }
 
 a:link {
@@ -218,7 +218,6 @@ dlink {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen
-
 and (max-device-width : 667px) {
   .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
     position: relative;
@@ -233,7 +232,7 @@ and (max-device-width : 667px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   h3 {
-    font-size: 45;
+    font-size: 45px;
   }
   h3, h2, h1 {
     padding-left: 5%;
