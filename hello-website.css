@@ -218,7 +218,7 @@ dlink {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen
-and (min-device-width : 375px)
+
 and (max-device-width : 667px) {
   .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
     position: relative;
