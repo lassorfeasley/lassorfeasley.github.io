@@ -1,47 +1,61 @@
-.introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  margin-top: 4%;
-  height: 450px;
-}
-.introPara {
-  background-image: url("./Abstract.png");
-}
 
-.chapterOnePara {
-  background-image: url("./ChapterOne.png");
-}
 
-.chapterTwoPara {
-  background-image: url("./ChapterTwo.png");
-}
+/* -- paralax formatting for all Paralax Elements */
+  .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 4%;
+    height: 450px;
+  }
 
-.chapterThreePara {
-  background-image: url("./ChapterThree.png");
-}
+  .introPara {
+    background-image: url("./Abstract.png");
+  }
 
-.conclusionPara {
-  background-image: url("./Conclusion.png");
-}
+  .chapterOnePara {
+    background-image: url("./ChapterOne.png");
+  }
 
-.paraQuote {
-  position:sticky;
-  background-color: rgba(0,0,0,.7);
-  font-family: 'Josefin Slab', serif;
-  font-weight:lighter;
-  font-size: 14;
-  color: white;
-  width: 20%;
-  height: 100%;
-  margin-left: 20%;
-  padding: 7% 4% 0 4%;
-  text-align: justify;
-  line-height: 110%;
-}
+  .chapterTwoPara {
+    background-image: url("./ChapterTwo.png");
+  }
+
+  .chapterThreePara {
+    background-image: url("./ChapterThree.png");
+  }
+
+  .conclusionPara {
+    background-image: url("./Conclusion.png");
+  }
+
+  .paraQuote {
+    position:sticky;
+    background-color: rgba(0,0,0,.7);
+    font-family: 'Josefin Slab', serif;
+    font-weight:lighter;
+    font-size: 14;
+    color: white;
+    width: 20%;
+    height: 100%;
+    margin-left: 20%;
+    padding: 7% 4% 0 4%;
+    text-align: justify;
+    line-height: 110%;
+  }
+
+  /* formatting spesificly for the image contained within the paraQuote in the first section */
+
+  .badge {
+    text-align: right;
+    padding-bottom: 6%;
+
+  }
+
+/* list elements controling the content in the sidebar */
 
 ul {
   list-style-type: none;
@@ -49,20 +63,20 @@ ul {
   padding: 5%;
   color: white;
 }
+
 ul li {
+  font-family: "lora";
   padding-left: 10%;
   line-height: normal;
   padding-top: 0%;
   color:white;
 }
 
-/* this is to make a full bleed grey background*/
+/* formatting required for full bleed html elements*/
 
 html, body { margin: 0px; padding: 0px; border: 0px; }
 
-body {
-  background: white;
-}
+/* margin and style changes for quotes, a common element within the h3 level */
 
 blockquote {
   font-style: italic;
@@ -70,32 +84,51 @@ blockquote {
   margin-right: 10%;
 }
 
-.topbar {
+/* formatting for the fixxed nav bar element */
+.topbarContainer {
+  width: 60%;
+  background-color: black;
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: flex;
+}
+
+.topbarText {
+  hight: 100%;
+
   font-family: "futura-pt-bold", sans-serif;
   letter-spacing: .3em;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  width: 100%;
-  background-color: grey;
-  border-bottom: 0pt solid white;
-  position:fixed;
-  top: 0;
-  z-index: 1;
   text-align: left;
-  padding-left: 20%;
-  padding-right: 20%;
-  font-size: 350%;
+  font-size: 2em;
+  width: 80%;
+  line-height: 200%;
+  padding-right: 10%;
 }
 
+.topbarHam {
 
+  width: 15%;
+  font-family: "futura-pt-bold", sans-serif;
+  letter-spacing: .3em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: right;
+  font-size: 3em;
+  margin-right: 0%;
+}
 
-
+/* used for the byline style text under h2 */
 h1 {
   display: block;
   font-size: 100%;
-  font-family: "Lora";
-  font-size: 14px;
+  font-family: "Lora", serif;
   text-align: left;
   text-transform:lowercase;
   font-style: italic;
@@ -107,6 +140,7 @@ h1 {
   margin-top: 0;
 }
 
+/* used for the section names */
 h2 {
   padding-left: 20%;
   padding-right: 20%;
@@ -120,12 +154,11 @@ h2 {
   font-variant: small-caps;
   text-align: left;
   color: black;
-  background-color: white;
   margin-top: 0;
   margin-bottom: 0;
-
 }
 
+/* the primary content text */
 h3 {
   font-family: 'Zilla Slab', serif;
   color: black;
@@ -147,14 +180,10 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
 }
-dlink {
-  padding-left: 15%;
-
-}
 
 /* The side navigation menu */
 .sidenav {
-    font-family: "noto serif";
+    font-family: "lora";
     font-style: italic;
     text-transform: lowercase;
     height: 100%; /* 100% Full-height */
@@ -217,6 +246,7 @@ dlink {
 
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+
 @media only screen
 and (max-device-width : 667px) {
   .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
@@ -243,13 +273,13 @@ and (max-device-width : 667px) {
     padding-top:20%;
   }
   .topbar {
-    font-size: 20pt;
+    font-size: 50px;
   }
-}
-
-
-.badge {
-  text-align: right;
-  padding-bottom: 6%;
-
+  .hamburger {
+    position:sticky;
+    font-size: 100px;
+    border: 1px black solid;
+    padding-right: 20%;
+    text-align: center;
+  }
 }
