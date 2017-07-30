@@ -16,7 +16,7 @@
       <meta charset="utf-8">
 
   <!-- CSS Link -->
-    <link rel="stylesheet" type="text/css" href="./hello-website.css"/>
+    <link rel="stylesheet" type="text/css" href="./paratest.css"/>
 
   <!-- title and image for browzer -->
     <title>Wired America</title>
@@ -26,18 +26,42 @@
     <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 
 </head>
+<body>
+<!--topbar-->
+<div class="topbarContainer">
+  <div class="topbarText">
+    wired america
+  </div>
+  <div class="topbarHam" onclick="openNav()">
+    ☰
+  </div>
+</div>
 
-  <body>
-    <!--topbar-->
 
-    <div class="topbarContainer">
-      <div class="topbarText">
-        wired america
-      </div>
-      <div class="topbarHam" onclick="openNav()">
-        ☰
-      </div>
+
+<div class="outer">
+    <div id="mySidenav" class="sidenav">
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()", style="color: white; font-style: normal;">&times;</a>
+</div>
     </div>
+
+
+
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "18%";
+          document.getElementById("main").style.marginLeft = "18%";
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+      }
+      </script>
+
   </body>
 
 </html>

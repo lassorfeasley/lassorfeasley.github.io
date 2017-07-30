@@ -1,6 +1,4 @@
-* {
-  border: red 1px solid
-}
+* {border:1px solid red}
 
 /* -- paralax formatting for all Paralax Elements */
   .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
@@ -11,7 +9,7 @@
     background-size: cover;
     overflow: hidden;
     margin-top: 4%;
-    height: 400px;
+    height: 450px;
   }
 
   .introPara {
@@ -42,20 +40,22 @@
     font-size: 14;
     color: white;
     width: 20%;
-    height: 600px;
+    height: 100%;
     margin-left: 20%;
     padding: 7% 4% 0 4%;
     text-align: justify;
     line-height: 110%;
-
   }
 
   /* formatting spesificly for the image contained within the paraQuote in the first section */
+.badgeContainer {
+
+}
 
   .badge {
+    text-align: right;
     padding-bottom: 6%;
-    width: 50%;
-    padding-left: 50%;
+
   }
 
 /* list elements controling the content in the sidebar */
@@ -186,12 +186,10 @@ a:visited {
 
 /* The side navigation menu */
 .sidenav {
-    font-family: "lora";
-    font-style: italic;
-    text-transform: lowercase;
+    overflow: hidden;
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    width: 25%; /* 0 width - change this with JavaScript */
+    position: absolute; /* Stay in place */
     z-index: 2; /* Stay on top */
     top: 0;
     left: 0;
@@ -201,6 +199,11 @@ a:visited {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.outer {
+  overflow: hidden;
+  position: relative;
 }
 
 .chapter {
@@ -272,43 +275,20 @@ and (max-device-width : 667px) {
     padding-left: 5%;
     padding-right: 5%;
   }
-
-  .introPara, .chapterOnePara, .chapterTwoPara, .chapterThreePara, .backCoverFourPara, .conclusionPara{
-    height: 800px;
-  }
-
   .paraQuote {
-    width: 90%;
-    height: 800px;
-    padding: 10% 5% 5% 5%;
-    font-size: 200%;
-    margin: 0;
-    font-size:45px;
+    width: 50%;
+    padding-top:20%;
+  }
+  .topbar {
+    font-size: 50px;
+  }
+  .hamburger {
+    position:sticky;
+    font-size: 100px;
+    border: 1px black solid;
+    padding-right: 20%;
+    text-align: center;
   }
 
-  .badge {
-    padding-left: 70%;
-    width: 30%;
-  }
-  blockquote {
-    font-size: 15px;
-  }
-
-  /* formatting for the fixxed nav bar element */
-  .topbarContainer {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    display: flex;
-  }
-
-  .topbarText {
-    line-height: 3em;
-    font-size: 3.5em;
-  }
-
-  .topbarHam {
-    font-size: 6em;
-  }
 
 }
