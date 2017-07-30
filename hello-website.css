@@ -291,7 +291,7 @@ and (max-device-width : 667px) {
     width: 30%;
   }
   blockquote {
-    font-size: 15px;
+    font-size: 30px;
   }
 
   /* formatting for the fixxed nav bar element */
