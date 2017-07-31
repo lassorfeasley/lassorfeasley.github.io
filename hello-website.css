@@ -134,9 +134,10 @@ blockquote {
   width: 10%;
   font-family: "futura-pt-bold", sans-serif;
   font-size: 3em;
+  color: white;
 }
 
-.topbarContainer a.infoIcon:hover {
+.topbarContainer .infoIcon a:hover {
   color: red;
 }
 
