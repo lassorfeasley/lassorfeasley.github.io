@@ -115,7 +115,18 @@ blockquote {
 }
 
 .topbarHam {
+  width: 15%;
+  font-family: "futura-pt-bold", sans-serif;
+  letter-spacing: .3em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: right;
+  font-size: 3em;
+  margin-right: 0%;
+}
 
+.infoIcon {
   width: 15%;
   font-family: "futura-pt-bold", sans-serif;
   letter-spacing: .3em;

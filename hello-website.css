@@ -1,4 +1,4 @@
- /* {
+ * {
   border: red 1px solid
 } */
 
@@ -115,7 +115,8 @@ blockquote {
 }
 
 .topbarHam {
-
+  position:relative;
+  left: 10%;
   width: 15%;
   font-family: "futura-pt-bold", sans-serif;
   letter-spacing: .3em;
@@ -125,6 +126,15 @@ blockquote {
   text-align: right;
   font-size: 3em;
   margin-right: 0%;
+}
+
+.infoIcon {
+  position:relative;
+  left: 30%;
+  width: 10%;
+  font-family: "futura-pt-bold", sans-serif;
+  color: white;
+  font-size: 3em;
 }
 
 /* used for the byline style text under h2 */
@@ -308,6 +318,10 @@ and (max-device-width : 667px) {
   }
 
   .topbarHam {
+    font-size: 6em;
+  }
+
+  .infoIcon {
     font-size: 6em;
   }
 
