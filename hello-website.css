@@ -1,4 +1,4 @@
- * {
+ /* {
   border: red 1px solid
 } */
 
@@ -100,7 +100,7 @@ blockquote {
 }
 
 .topbarText {
-  hight: 100%;
+  color: white;
 
   font-family: "futura-pt-bold", sans-serif;
   letter-spacing: .3em;
@@ -133,8 +133,11 @@ blockquote {
   left: 30%;
   width: 10%;
   font-family: "futura-pt-bold", sans-serif;
-  color: white;
   font-size: 3em;
+}
+
+.topbarContainer a.infoIcon:hover {
+  color: red;
 }
 
 /* used for the byline style text under h2 */
