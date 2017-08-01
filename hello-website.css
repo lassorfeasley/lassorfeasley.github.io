@@ -137,6 +137,12 @@ blockquote {
   color: white;
 }
 
+.infoIconA {
+  position: absolute;
+  line-height: 2em;
+  height: 100%;
+}
+
 .topbarContainer .infoIcon a:hover {
   color: red;
 }
